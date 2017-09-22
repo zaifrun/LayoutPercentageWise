@@ -27,14 +27,14 @@
 
     <Button
         android:text="@string/button1"
-        android:layout_weight="75"
+        android:layout_weight="50"
         android:layout_width="0dp"
         android:layout_height="wrap_content"/>
         <!-- notice that we set the width to 0 dp
         and then it uses the layout_weight -->
     <Button
         android:text="@string/button2"
-        android:layout_weight="25"
+        android:layout_weight="50"
         android:layout_width="0dp"
         android:layout_height="wrap_content"/>
     </LinearLayout>
